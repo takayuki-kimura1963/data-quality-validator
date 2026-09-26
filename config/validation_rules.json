@@ -1,0 +1,35 @@
+{
+  "file": {
+    "encoding": "utf-8-sig",
+    "delimiter": ","
+  },
+  "primary_key": [
+    "record_id"
+  ],
+  "columns": {
+    "record_id": {
+      "type": "string",
+      "required": true,
+      "max_length": 10
+    },
+    "full_name": {
+      "type": "string",
+      "required": true,
+      "max_length": 40
+    },
+    "birth_date": {
+      "type": "date",
+      "required": false,
+      "format": "%Y%m%d"
+    },
+    "household_size": {
+      "type": "integer",
+      "required": false
+    },
+    "remarks": {
+      "type": "string",
+      "required": false,
+      "max_length": 100
+    }
+  }
+}

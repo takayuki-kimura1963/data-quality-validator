@@ -1,27 +1,31 @@
-# Data Quality Validator
+# data-quality-validator
 
-CSVデータの品質を検査するPythonツールです。
+`git --version`
+`git init`
 
-自治体システムのデータ移行・品質検証で得た知見をもとに、
-個人情報を含まない架空データを使用して作成します。
+README.mdを作る
 
-## 検査予定の項目
+.gitignoreを作る
 
-- 必須項目の空欄
-- 主キーの空欄
-- 主キーの重複
-- 日付の妥当性
-- 数値項目の形式
-- 最大文字数
+`git status`
+`git add README.md .gitignore`
+`git status`
+`git commit -m "Initial commit: READMEとgitignoreを追加"`
 
-## 使用技術
+`git branch -M main`
 
-- Python 3.11
-- pandas
-- pytest
-- GitHub Actions
+https://github.com/takayuki-kimura1963/data-quality-validator.git
 
-## 注意事項
+`git remote add origin https://github.com/`takayuki-kimura1963`/data-quality-validator.git`
 
-このリポジトリで使用するデータ、テーブル名、仕様はすべてサンプルです。
-実際の自治体名、業務データ、個人情報は含みません。
+(.venv) PS C:\01_開発環境\data-quality-validator> git remote -v
+origin  https://github.com/takayuki-kimura1963/data-quality-validator.git (fetch)
+origin  https://github.com/takayuki-kimura1963/data-quality-validator.git (push)
+
+`git push -u origin main`
+
+`git status`
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
